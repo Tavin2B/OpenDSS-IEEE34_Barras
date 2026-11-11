@@ -1,0 +1,16 @@
+Maior tensão COM GFV (pu): 1.06412 | barra 814 | fase C | hora 9
+Maior tensão SEM GFV (pu): 1.05599 | barra 814 | fase B | hora 4
+Maior elevação de tensão devido ao GFV (pu): 1.06412 | barra 814 | fase C | hora 9
+
+Top 10 elevações:
+ hora    nó  delta_pu
+    9 814.3  1.064116
+   10 814.3  1.063937
+    9 814.2  1.063448
+   10 814.2  1.063015
+   12 814.3  1.062904
+   13 814.3  1.062691
+   11 814.3  1.062352
+   12 814.2  1.061935
+   13 814.2  1.061847
+   11 814.2  1.061320

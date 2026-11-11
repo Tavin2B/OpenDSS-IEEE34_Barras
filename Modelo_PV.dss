@@ -1,0 +1,14 @@
+! ----------------- MODELO DO PV -----------------
+! Fator P/Pmpp em funcao da temperatura do painel (C)
+New XYCurve.MyPvsT npts=4 xarray=[0 25 75 100] yarray=[1.2 1.0 0.8 0.6]
+
+! Eficiencia do inversor em funcao da potencia (pu do kVA)
+New XYCurve.MyEff npts=4 xarray=[0.1 0.2 0.4 1.0] yarray=[0.86 0.90 0.93 0.97]
+
+! Irradiancia horaria (pu)
+New LoadShape.MyIrrad npts=24 interval=1 mult=[0 0 0 0 0 0 0.0237 0.2573 0.5180 0.7367 0.8957 0.9820 0.9888 0.9153 0.7678 0.5578 0.3028 0.0473 0 0 0 0 0 0]
+
+! Temperatura horaria do painel (C)
+New TShape.MyTemp npts=24 interval=1 temp=[25 25 25 25 25 25 25 25 35 40 45 50 60 60 55 40 35 30 25 25 25 25 25 25]
+
+
